@@ -1135,6 +1135,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd8bf43d1858f4e42b3f00ffffdbe3aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1479906501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f3b37d260ae303e4eb2e6707987aa1e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1520444447}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1509350992
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1272,10 +1278,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: mushrooms
       objectReference: {fileID: 0}
+    - target: {fileID: 3451118302482216456, guid: f3b37d260ae303e4eb2e6707987aa1e1,
+        type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f3b37d260ae303e4eb2e6707987aa1e1,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2137738006}
   m_SourcePrefab: {fileID: 100100000, guid: f3b37d260ae303e4eb2e6707987aa1e1, type: 3}
 --- !u!1001 &1532792180
 PrefabInstance:
@@ -1425,6 +1440,19 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1520444447}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2137738006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479906501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e5f925a89d4e60489ab352f8504b321, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _distanceMaximale: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
