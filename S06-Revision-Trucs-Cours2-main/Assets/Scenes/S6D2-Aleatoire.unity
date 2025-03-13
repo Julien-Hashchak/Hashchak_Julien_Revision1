@@ -1452,7 +1452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e5f925a89d4e60489ab352f8504b321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _distanceMaximale: 0
+  _distanceMaximale: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
